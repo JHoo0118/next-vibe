@@ -2,8 +2,12 @@
 
 ```shell
 
+# Prisma
+$ npx prisma migrate reset
+$ npx prisma migrate dev
+
 # Inngest
-$ pnpm dlx inngest-cli@latest dev
+$ npx inngest-cli@latest dev
 
 # E2B(Execute to Build) Sandbox
 $ brew install e2b
