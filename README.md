@@ -1,3 +1,19 @@
 # Vibe
 
+```shell
+
+# Inngest
 $ pnpm dlx inngest-cli@latest dev
+
+# E2B(Execute to Build) Sandbox
+$ brew install e2b
+
+$ e2b auth login
+
+$ e2b sandbox list
+
+# ./sandbox-templates/nextjs
+$ e2b template build --name {template-name}
+$ e2b template build --name {template-name} --cmd "/compile_page.sh"
+$ e2b template publish -t {team-id}
+```
