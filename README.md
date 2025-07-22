@@ -2,6 +2,9 @@
 
 ```shell
 
+# PostgreSQL
+$ docker compose up -d
+
 # Prisma
 $ npx prisma migrate reset
 $ npx prisma migrate dev
